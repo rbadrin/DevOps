@@ -15,6 +15,8 @@ The automated deployment happens only on the main branch.
 Created an docker image for the python app (https://hub.docker.com/repository/docker/badri311/pythonapp).
 
 
+The working branch was created to create a pull request and merge it with the main branch.
+
 
 
 
