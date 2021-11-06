@@ -3,19 +3,18 @@ Creating an application using DevOps style
 
 Creating a simple web application.
 
-The repository has been added with CI/CD pipeline (created **workflows** for push commit using **github actions**).
+1. The repository has been added with CI/CD pipeline (created **workflows** for push commit using **github actions**).
 
-  -> Unit testing was done using pytest
+    -> Unit testing was done using pytest
   
-Created an issue and closed it.
+2. Created an issue and closed it.
 
-Deployed the application on heroku cloud platform ( https://ancient-bayou-70234.herokuapp.com/ ).
-The automated deployment happens only on the main branch.
+3. Deployed the application on heroku cloud platform ( https://ancient-bayou-70234.herokuapp.com/ ).
+  The automated deployment happens only on the main branch.
 
-Created an docker image for the python app (https://hub.docker.com/repository/docker/badri311/pythonapp).
+4. Created an docker image for the python app (https://hub.docker.com/repository/docker/badri311/pythonapp).
 
-
-The working branch was created to create a pull request and merge it with the main branch.
+5. The working branch was created to create a pull request and merge it with the main branch.
 
 
 
