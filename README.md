@@ -10,6 +10,7 @@ The repository has been added with CI/CD pipeline (created **workflows** for pus
 Created an issue and closed it.
 
 Deployed the application on heroku cloud platform ( https://ancient-bayou-70234.herokuapp.com/ ).
+The automated deployment happens only on the main branch.
 
 Created an docker image for the python app (https://hub.docker.com/repository/docker/badri311/pythonapp).
 
