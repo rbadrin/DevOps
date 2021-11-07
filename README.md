@@ -5,7 +5,7 @@ Creating a simple web application using weatherapi.
 
 **Automated building, testing, deployment to heroku is implemented**
 
-1. The repository has been added with CI/CD pipeline (created **workflows** for push commit using **github actions**).
+1. The repository has been added with CI/CD pipeline (created **workflows** for push commit using **github actions** https://github.com/rbadrin/DevOps/actions/runs/1430694830/workflow).
 
     -> Unit testing was done using pytest   
         
@@ -23,6 +23,8 @@ Creating a simple web application using weatherapi.
 4. Created an **Docker Image** for the python app (https://hub.docker.com/repository/docker/badri311/pythonapp).
 
 5. The working branch,api_call, mastercopy and mastercopyapi was created for testing and to create a pull request and merge it with the main branch.
+
+6. Created Github Secrets for heroku api access. 
 
 
 
