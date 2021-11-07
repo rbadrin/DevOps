@@ -2,6 +2,7 @@
 Creating an application using DevOps style
 
 Creating a simple web application using weatherapi.
+**Automated building, testing, deployment to heroku is implemented**
 
 1. The repository has been added with CI/CD pipeline (created **workflows** for push commit using **github actions**).
 
@@ -20,7 +21,9 @@ Creating a simple web application using weatherapi.
 
 4. Created an **Docker Image** for the python app (https://hub.docker.com/repository/docker/badri311/pythonapp).
 
-5. The working branch and apicall was created to create a pull request and merge it with the main branch.
+5. The working branch,api_call, mastercopy and mastercopyapi was created for testing and to create a pull request and merge it with the main branch.
+
+
 
 
 
