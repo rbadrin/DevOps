@@ -7,6 +7,7 @@ Creating a simple web application.
 
     -> Unit testing was done using pytest   
         a) Simple assertion
+        
         b) Assertion based on status code from api
   
 2. Created an issue and closed it.
