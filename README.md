@@ -1,7 +1,8 @@
-# DevOps
+# DevOps Assignment
 Creating an application using DevOps style
 
 Creating a simple web application using weatherapi.
+
 **Automated building, testing, deployment to heroku is implemented**
 
 1. The repository has been added with CI/CD pipeline (created **workflows** for push commit using **github actions**).
