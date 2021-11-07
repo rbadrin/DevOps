@@ -6,6 +6,7 @@ Creating a simple web application.
 1. The repository has been added with CI/CD pipeline (created **workflows** for push commit using **github actions**).
 
     -> Unit testing was done using pytest   
+        
         a) Simple assertion
         
         b) Assertion based on status code from api
