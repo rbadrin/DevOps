@@ -1,7 +1,5 @@
 from flask import Flask
-import tkinter as tk
 import requests
-import time
 
 
 app = Flask(__name__)
@@ -23,11 +21,8 @@ def getWeather():
     pressure = json_data['main']['pressure']
     humidity = json_data['main']['humidity']
     wind = json_data['wind']['speed']
-    sunrise = time.strftime('%I:%M:%S', time.gmtime(json_data['sys']['sunrise'] - 21600))
-    sunset = time.strftime('%I:%M:%S', time.gmtime(json_data['sys']['sunset'] - 21600))
     final_info = "<br><center>"+condition + "<br><center>" + str(temp) + "°C" + "<br><center>"
-    final_data = "<br><center>"+ "Min Temp: " + str(min_temp) + "°C" + "<br><center>" + "Max Temp: " + str(max_temp) + "°C" +"<br><center>" + "Pressure: " + str(pressure) + "<br><center>" +"Humidity: " + str(humidity) + "<br><center>" +"Wind Speed: " + str(wind) + "<br><center>" + "Sunrise: " + sunrise + "<br><center>" + "Sunset: " + sunset
-    return "<h1><center> The Weather details at Chennai is </h1><br>"+final_data+ final_info
+    final_data = "<br><center>"+ "Min Temp: " + str(min_temp) + "°C" + "<br><center>" + "Max Temp: " + str(max_temp) + "°C" +"<br><center>" + "Pressure: " + str(pressure) + "<br><center>" +"Humidity: " + str(humidity) + "<br><center>" +"Wind Speed: " + str(wind) 
 
 
 if __name__ == "__main__":
