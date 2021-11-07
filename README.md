@@ -1,7 +1,7 @@
 # DevOps
 Creating an application using DevOps style
 
-Creating a simple web application.
+Creating a simple web application using weatherapi.
 
 1. The repository has been added with CI/CD pipeline (created **workflows** for push commit using **github actions**).
 
@@ -14,7 +14,7 @@ Creating a simple web application.
 2. Created an issue and closed it.
 
 3. Deployed the application on heroku cloud platform ( https://ancient-bayou-70234.herokuapp.com/ ).
-  The automated deployment happens only on the main branch.
+  The automated deployment happens only on the main branch (https://github.com/rbadrin/DevOps/actions).
 
 4. Created an docker image for the python app (https://hub.docker.com/repository/docker/badri311/pythonapp).
 
