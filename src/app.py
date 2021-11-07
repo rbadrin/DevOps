@@ -13,7 +13,7 @@ def index():
 @app.route('/getWeather')
 def getWeather():
     city = "chennai"
-    api = ${{ secrets.WEATHER_API_URL }}   
+    api = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=06c921750b9a82d8f5d1294e1586276f"
 	# Add your api url here
     json_data = requests.get(api).json()
     condition = json_data['weather'][0]['main']
